@@ -1,0 +1,11 @@
+/* Domain.css */
+
+.add-form {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.add-form.open {
+  max-height: 500px; /* Adjust the height as needed */
+}
